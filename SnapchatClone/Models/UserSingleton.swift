@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+class UserSingleton {
+    
+    static let sharedUserInfo = UserSingleton()
+    
+    var username = ""
+    var email = ""
+    
+    private init() {
+        
+        
+    }
+    
+    
+}

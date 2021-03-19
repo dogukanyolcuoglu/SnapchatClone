@@ -9,6 +9,13 @@ import UIKit
 
 class FeedCell: UITableViewCell {
 
+    //MARK: - IBOutlets
+    
+    @IBOutlet weak var usernameCell: UILabel!
+    @IBOutlet weak var imageviewCell: UIImageView!
+    
+    
+    //MARK: - State funcs
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
